@@ -24,7 +24,7 @@ find ~/project_files -name "*.pdf"
 find ~/project_files/logs -type f
 ln -s ~/project_files/data/data.csv ~/project_files/link_data.csv
 nano ~/project_files/link_data.csv
-cat ~/project_files/link_data.csv
+cat ~/project_files/data/data.csv
 rm ~/project_files/link_data.csv
 echo "Summary Start" > ~/project_files/summary.txt
 date >> ~/project_files/summary.txt
